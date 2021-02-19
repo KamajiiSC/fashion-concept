@@ -25,6 +25,7 @@ header{
 
   nav{
     width:30%;
+    margin-right: 5%;
 
       ul{
       display: flex;
@@ -45,6 +46,7 @@ main{
   height: 100%;
   width: 100%;
   justify-content: space-between;
+  margin-left: 1em;
 
   .left-side-container{
     width:100%;
@@ -123,7 +125,7 @@ main{
 
       &:hover{
         padding: 0;
-        width: 81%;
+        width: 80%;
       }
     }
 
