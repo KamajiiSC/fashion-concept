@@ -14,9 +14,10 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header img {
-  width: 10%;
+  width: 7%;
 }
 header nav {
   width: 50%;
