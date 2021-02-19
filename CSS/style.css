@@ -4,4 +4,8 @@
   padding: 0;
 }
 
+body {
+  background-image: url("../resources/bg.jpg");
+}
+
 /*# sourceMappingURL=style.css.map */
