@@ -6,6 +6,8 @@
 
 body {
   background-image: url("../resources/bg.jpg");
+  background-size: 150%;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
