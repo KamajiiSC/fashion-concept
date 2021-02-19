@@ -114,5 +114,13 @@ main{
       background-image: url('../resources/mountains.jpg');
       background-position: 25% 50%;
     }
+
+    .socials{
+      a{
+        img{
+          width:3em;
+        }
+      }
+    }
   }
 }
