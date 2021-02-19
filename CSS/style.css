@@ -33,4 +33,27 @@ header nav ul li a {
   font-size: 26px;
 }
 
+main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+main .left-side-container {
+  width: 100%;
+}
+main .left-side-container h1 {
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+}
+main .left-side-container h1 #first-name {
+  align-self: flex-start;
+}
+main .left-side-container h1 #last-name {
+  align-self: flex-end;
+}
+main .right-side-container {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

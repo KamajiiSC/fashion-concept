@@ -38,3 +38,31 @@ header{
     }
   }
 }
+
+main{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  .left-side-container{
+    width:100%;
+
+    h1{
+      font-size: $title-font;
+      display: flex;
+      flex-direction: column;
+
+      #first-name{
+        align-self: flex-start;
+      }
+      #last-name{
+        align-self: flex-end;
+      }
+    }
+
+  }
+
+  .right-side-container{
+    width: 100%;
+  }
+}
