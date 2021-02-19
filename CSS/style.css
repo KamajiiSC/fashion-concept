@@ -72,6 +72,8 @@ main .left-side-container h1 #last-name {
   align-self: flex-end;
 }
 main .left-side-container #quote {
+  margin-top: 5%;
+  margin-left: 10%;
   width: 100%;
   text-align: left;
 }
