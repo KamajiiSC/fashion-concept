@@ -122,17 +122,24 @@ main .right-side-container .socials #tw {
 }
 main .right-side-container .mag-covers {
   display: flex;
-  width: 80%;
+  width: 75%;
   margin: 1em auto;
   justify-content: space-between;
 }
-main .right-side-container .mag-covers #blue-cover {
+main .right-side-container .mag-covers .mag-container {
+  position: relative;
+}
+main .right-side-container .mag-covers .mag-container .cover {
+  padding: 0.5%;
+  background-color: white;
   width: 15em;
   height: 20em;
 }
-main .right-side-container .mag-covers #gray-cover {
-  width: 15em;
-  height: 20em;
+main .right-side-container .mag-covers .mag-container p {
+  font-size: 20px;
+  position: absolute;
+  left: 10%;
+  bottom: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
