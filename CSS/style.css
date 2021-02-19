@@ -120,5 +120,19 @@ main .right-side-container .socials #ig {
 main .right-side-container .socials #tw {
   align-self: flex-start;
 }
+main .right-side-container .mag-covers {
+  display: flex;
+  width: 80%;
+  margin: 1em auto;
+  justify-content: space-between;
+}
+main .right-side-container .mag-covers #blue-cover {
+  width: 15em;
+  height: 20em;
+}
+main .right-side-container .mag-covers #gray-cover {
+  width: 15em;
+  height: 20em;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -141,5 +141,21 @@ main{
         align-self: flex-start;
       }
     }
+
+    .mag-covers{
+      display: flex;
+      width: 80%;
+      margin:1em auto;
+      justify-content: space-between;
+
+      #blue-cover{
+        width: 15em;
+        height: 20em;
+      }
+      #gray-cover{
+        width: 15em;
+        height: 20em;
+      }
+    }
   }
 }
