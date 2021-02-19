@@ -7,6 +7,23 @@
 body {
   background-image: url("../resources/bg.jpg");
   background-size: 150%;
+  margin: 1.5em;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 10%;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
   color: white;
 }
 

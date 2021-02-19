@@ -9,5 +9,26 @@
 body{
   background-image: $background;
   background-size: 150%;
+  margin: 1.5em;
   color: $main-text;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+
+  img{
+    width:10%;
+  }
+
+  nav ul{
+    display: flex;
+    list-style: none;
+
+    li a{
+      text-decoration: none;
+      color: $main-text;
+    }
+    
+  }
 }
