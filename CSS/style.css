@@ -100,8 +100,25 @@ main .right-side-container #red-dress {
   background-image: url("../resources/mountains.jpg");
   background-position: 25% 50%;
 }
-main .right-side-container .socials a img {
-  width: 3em;
+main .right-side-container .socials {
+  display: flex;
+  list-style: none;
+  height: 10%;
+  width: 20%;
+  justify-content: space-around;
+  margin-left: 70%;
+}
+main .right-side-container .socials li a img {
+  height: 3em;
+}
+main .right-side-container .socials #fb {
+  align-self: flex-end;
+}
+main .right-side-container .socials #ig {
+  align-self: center;
+}
+main .right-side-container .socials #tw {
+  align-self: flex-start;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -116,10 +116,29 @@ main{
     }
 
     .socials{
-      a{
-        img{
-          width:3em;
+      display: flex;
+      list-style: none;
+      height: 10%;
+      width: 20%;
+      justify-content: space-around;
+      margin-left: 70%;
+
+      li{
+        a{
+          img{
+            height: 3em;
+          }
         }
+      }
+
+      #fb{
+        align-self: flex-end;
+      }
+      #ig{
+        align-self: center;
+      }
+      #tw{
+        align-self: flex-start;
       }
     }
   }
