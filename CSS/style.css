@@ -42,6 +42,8 @@ main .left-side-container {
   width: 100%;
 }
 main .left-side-container h1 {
+  margin: 0 auto;
+  width: 60%;
   font-size: 80px;
   display: flex;
   flex-direction: column;
