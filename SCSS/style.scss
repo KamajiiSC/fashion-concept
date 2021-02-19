@@ -47,6 +47,19 @@ main{
   .left-side-container{
     width:100%;
 
+    #floor{
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      height: 60%;
+      padding: 3%;
+      object-fit: cover;
+      object-position: center bottom;
+      background-image: url('../resources/floor-picture.jpg');
+      background-position: 60% 50%;
+      background-size: 105% 105%;
+    }
+
     h1{
       margin: 0 auto;
       width:60%;
