@@ -45,7 +45,7 @@ main .left-side-container #floor {
   display: block;
   margin: 0 auto;
   width: 90%;
-  height: 60%;
+  height: 50%;
   padding: 3%;
   object-fit: cover;
   object-position: center bottom;
@@ -56,7 +56,7 @@ main .left-side-container #floor {
 }
 main .left-side-container #floor:hover {
   padding: 0;
-  height: 62%;
+  height: 52%;
 }
 main .left-side-container h1 {
   margin: 0 auto;
