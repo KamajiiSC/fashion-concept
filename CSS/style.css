@@ -52,6 +52,11 @@ main .left-side-container #floor {
   background-image: url("../resources/floor-picture.jpg");
   background-position: 60% 50%;
   background-size: 105% 105%;
+  transition: all 0.5s;
+}
+main .left-side-container #floor:hover {
+  padding: 0;
+  height: 62%;
 }
 main .left-side-container h1 {
   margin: 0 auto;
