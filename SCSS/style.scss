@@ -102,5 +102,14 @@ main{
 
   .right-side-container{
     width: 100%;
+
+    #red-dress{
+      display: block;
+      margin: 0 auto;
+      padding: 1.5% 3%;
+      width: 80%;
+      background-image: url('../resources/mountains.jpg');
+      background-position: 25% 50%;
+    }
   }
 }
