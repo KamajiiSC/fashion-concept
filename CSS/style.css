@@ -18,9 +18,13 @@ header {
 header img {
   width: 10%;
 }
+header nav {
+  width: 50%;
+}
 header nav ul {
   display: flex;
   list-style: none;
+  justify-content: space-between;
 }
 header nav ul li a {
   text-decoration: none;
