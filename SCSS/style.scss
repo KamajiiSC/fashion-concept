@@ -11,6 +11,7 @@ body{
   background-size: 150%;
   margin: 1em 3em;
   color: $main-text;
+  height: 85vh;
 }
 
 header{
@@ -41,6 +42,7 @@ header{
 
 main{
   display: flex;
+  height: 100%;
   width: 100%;
   justify-content: space-between;
 
@@ -62,7 +64,7 @@ main{
 
       &:hover{
         padding: 0;
-        height: 52%;
+        height: 50%;
       }
     }
 
