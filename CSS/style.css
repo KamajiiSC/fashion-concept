@@ -71,6 +71,21 @@ main .left-side-container h1 #first-name {
 main .left-side-container h1 #last-name {
   align-self: flex-end;
 }
+main .left-side-container #quote {
+  width: 100%;
+  text-align: left;
+}
+main .left-side-container #quote h2 {
+  margin-left: 40%;
+  font-size: 32px;
+  font-style: italic;
+  color: #247B82;
+}
+main .left-side-container #quote p {
+  margin-right: 20%;
+  text-align: right;
+  font-size: 26px;
+}
 main .right-side-container {
   width: 100%;
 }

@@ -33,7 +33,7 @@ header{
       li a{
         text-decoration: none;
         color: $main-text;
-        font-size: $nav-font;
+        font-size: $s-font;
       }
     }
   }
@@ -78,6 +78,23 @@ main{
       }
       #last-name{
         align-self: flex-end;
+      }
+    }
+
+    #quote{
+      width: 100%;
+      text-align: left;
+      
+      h2{
+        margin-left: 40%;
+        font-size: $m-font;
+        font-style: italic;
+        color: $secondary-text;
+      }
+      p{
+        margin-right: 20%;
+        text-align: right;
+        font-size: $s-font;
       }
     }
 
