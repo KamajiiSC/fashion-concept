@@ -125,7 +125,7 @@ main .right-side-container #red-dress:hover {
 main .right-side-container .socials {
   display: flex;
   list-style: none;
-  height: 10%;
+  height: 8%;
   width: 20%;
   justify-content: space-around;
   margin-left: 70%;
@@ -156,7 +156,7 @@ main .right-side-container .mag-covers .mag-container .cover {
   padding: 0.5%;
   background-color: white;
   width: 15em;
-  height: 20em;
+  height: 18em;
 }
 main .right-side-container .mag-covers .mag-container p {
   font-size: 20px;
