@@ -1,4 +1,9 @@
-$fonts: "Playfair Display", serif;
+@font-face{
+  src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+  font-family: Playfair;
+}
+
+$fonts: Playfair, serif;
 $background: url("../resources/bg.jpg");
 $main-text: white;
 $secondary-text: #247B82;

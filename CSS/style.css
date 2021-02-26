@@ -1,3 +1,11 @@
+@font-face {
+  src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+  font-family: Playfair;
+}
+@font-face {
+  src: url(../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+  font-family: PlayfairItalic;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -84,7 +92,7 @@ main .left-side-container #quote {
 main .left-side-container #quote h2 {
   margin-left: 40%;
   font-size: 28px;
-  font-style: italic;
+  font-family: PlayfairItalic, serif;
   color: #247B82;
 }
 main .left-side-container #quote p {

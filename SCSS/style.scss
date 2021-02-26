@@ -1,5 +1,10 @@
 @import 'config';
 
+@font-face{
+  src: url(../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+  font-family: PlayfairItalic;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -94,7 +99,7 @@ main{
       h2{
         margin-left: 40%;
         font-size: $m-font;
-        font-style: italic;
+        font-family: PlayfairItalic, serif;
         color: $secondary-text;
       }
       p{
